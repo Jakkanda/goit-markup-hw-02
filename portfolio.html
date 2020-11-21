@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!--Header-->
@@ -14,14 +17,14 @@
       <nav class="site-nav">
         <a class="logo" href="index.html"><span>Web</span>Studio</a>
         <ul class="site-nav-list">
-          <li class="site-nav-list-item"><a href="index.html">Студия</a></li>
-          <li class="site-nav-list-item is-current"><a href=portfolio.html">Портфолио</a></li>
-          <li class="site-nav-list-item"><a href="#">Контакты</a></li>
+          <li class="site-nav-list-item"><a href="index.html" class="site-nav-link">Студия</a></li>
+          <li class="site-nav-list-item"><a href="portfolio.html" class="site-nav-link is-current">Портфолио</a></li>
+          <li class="site-nav-list-item"><a href="#" class="site-nav-link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contacts-list">
-        <li class="contact-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="contact-num"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact-mail">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact-num">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--Main-->
@@ -29,15 +32,21 @@
       <!--Our examples of work-->
       <section class="section">
         <ul class="selector-list">
-          <li><button class="button selector" type="button">Все</button></li>
-          <li><button class="button selector" type="button">Веб-сайты</button></li>
-          <li><button class="button selector" type="button">Приложения</button></li>
-          <li><button class="button selector"type="button">Дизайн</button></li>
-          <li><button class="button selector" type="button">Маркетинг</button></li>
+          <li><button class="button-selector" type="button">Все</button></li>
+          <li>
+            <button class="button-selector" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="button-selector" type="button">Приложения</button>
+          </li>
+          <li><button class="button-selector" type="button">Дизайн</button></li>
+          <li>
+            <button class="button-selector" type="button">Маркетинг</button>
+          </li>
         </ul>
         <ul class="examples-list">
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster1.jpg"
                 alt="Ноутбук с открытой страницей веб-сайта"
@@ -49,7 +58,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster2.jpg"
                 alt="Баскетболисты"
@@ -61,7 +70,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster3.jpg"
                 alt="Логотип ресторана"
@@ -73,7 +82,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster4.jpg"
                 alt="Наушники"
@@ -85,7 +94,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster5.jpg"
                 alt="Две коробки"
@@ -97,19 +106,21 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster6.jpg"
                 alt="Компьтер с открытой страницей веб-сайта"
                 width="370"
                 height="294"
               />
-              <h2 class="examples-title" lang="eng">Inspiration has no Borders</h2>
+              <h2 class="examples-title" lang="eng">
+                Inspiration has no Borders
+              </h2>
               <p class="examples-desc">Веб-сайт</p>
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster7.jpg"
                 alt="Журнал"
@@ -121,7 +132,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="# " class="examples-link">
               <img
                 src="images/portfolio/poster8.jpg"
                 alt="Логотип проекта"
@@ -133,7 +144,7 @@
             </a>
           </li>
           <li class="examples">
-            <a class="examples-link" href="#">
+            <a href="#" class="examples-link">
               <img
                 src="images/portfolio/poster9.jpg"
                 alt="Пользователь за работой с приложением"
@@ -149,19 +160,20 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a class="logo footer-logo" href="index.html"><span>Web</span>Studio</a>
+      <a href="index.html" class="logo footer-logo"><span>Web</span>Studio</a>
       <address class="address">
         <ul class="contacts-info">
-          <li class="location">
+          <li>
             <a
               href="https://goo.gl/maps/7gXkQdSNCJbNH52J9"
               target="_blank"
               rel="noreferrer noopener"
+              class="location"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li class="mail"><a href="mailto:info@example.com">info@example.com</a></li>
-          <li class="contact-tel"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li><a href="mailto:info@example.com" class="contact-item">info@example.com</a></li>
+          <li><a href="tel:+380991111111" class="contact-item">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
