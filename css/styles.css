@@ -46,6 +46,10 @@ body li {
   color: var(--accent-color);
 }
 
+.site-nav-link.is-current {
+  color: var(--accent-color);
+}
+
 .site-nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -54,10 +58,12 @@ body li {
   color: var(--main-text-color);
 }
 
-.is-current:hover,
-.is-current:focus,
+.site-nav-link:hover,
+.site-nav-link:focus,
 .contact-mail:hover,
-.contact-mail:focus {
+.contact-mail:focus,
+.contact-num:hover,
+.contact-num:focus {
   color: var(--accent-color);
 }
 
@@ -72,7 +78,7 @@ body li {
 
 /*======================================================HERO====================================*/
 .hero {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -134,7 +140,7 @@ body li {
 /*=====================================================OUR TEAM====================================*/
 
 .section-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .employees-title {
@@ -196,13 +202,14 @@ body li {
 
 /*=======================================================PORTFOLIO================================*/
 .button-selector {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .button-selector:hover,
